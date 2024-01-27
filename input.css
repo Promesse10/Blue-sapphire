@@ -107,10 +107,23 @@ a:hover{
   background-color: rgba(216, 244, 255, 0.836);
  
 }
-
-.dropdown:hover .dropdown-content {display: block;}
-
-
+.mg{
+  border-radius: 10px;
   
+}
+.mg:hover{
+  opacity: 0.5;
+  filter: grayscale(100%);
+}
+.dropdown:hover .dropdown-content {display: block;}
+.centered{
+  position: absolute;
+  bottom:24%;
+  left: 61%;
+  color: white;
+
+}
+
+
 
 
