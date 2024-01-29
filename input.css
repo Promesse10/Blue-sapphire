@@ -29,7 +29,13 @@ body{
     background-image: url(img/2.jpg);
   }
 }
-button{
+.yego{
+
+    
+}
+
+
+.ntb{
 background-color: rgb(247, 247, 247);
 padding: 20px;
 padding-left: 70px;
@@ -54,9 +60,10 @@ box-shadow: 00 5px rgba(0, 0, 0, 0.712);
   50%{content: "Mass Market";}
   70%{content: "Vintage Fashion";}
   100%{content: "Summer Collection";}
-
+ 
 }
-button:hover{
+
+.ntb:hover{
   box-shadow: none;
  background-color: rgba(0, 38, 255, 0.5);
  border-radius: 4px;
@@ -123,7 +130,54 @@ a:hover{
   color: white;
 
 }
-
-
-
-
+.tbn{
+  width: 120px;
+  background-color: rgb(247, 247, 247);
+  padding: 10px;
+  border-radius: 30px;
+  transition: 0.8s;
+  
+}
+.tbni{
+  width: 120px;
+  background-color: rgb(247, 247, 247);
+  padding: 10px;
+  border-radius: 30px;
+  transition: 0.8s;
+}
+.tbn:hover{
+  box-shadow: none;
+ background-color: rgba(0, 38, 255, 0.5);
+ border-radius: 4px;
+ color: white;
+ 
+}
+.tbni:hover{
+  box-shadow: none;
+ background-color: rgba(0, 38, 255, 0.5);
+ border-radius: 4px;
+ color: white;
+ 
+}
+.w-98{
+  width: 1500px;
+}
+*{
+  margin:0;
+  padding:0;
+  }
+  model-viewer{
+  width:100%;
+  height:600px;
+  height: 130vh;
+  background-image: url(img/istockphoto-1263687010-1024x1024.jpg);
+    background-size: cover;
+  
+  }
+  #parent{
+      position: relative;
+  }
+  .green{
+    
+    
+  }
