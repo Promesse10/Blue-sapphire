@@ -189,7 +189,7 @@
 
         </div>
 
-        <div id="parent">
+        <div >
 
             <div class="modle ">
                 <div class="flex flex-row justify-end  ">
@@ -201,9 +201,9 @@
                         <button class="tbni">Men suit's</button>
                     </div>
                 </div>
-                    <div >
+                    <div>
                     <div class="mt-32 ">
-                        <model-viewer class="mySlides" src="scene.gltf" alt="A 3D model of a car" shadow-intensity="2"
+                        <model-viewer class="mySlides" src="prom_suit/scene.gltf" alt="A 3D model of a car" shadow-intensity="2"
                             camera-controls auto-rotate ar>
                         </model-viewer>
                         <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
@@ -212,50 +212,53 @@
                         </script>
                     </div>
                     <div>
-                        <model-viewer class=" green mySlides mb-6 " src="casual_clothes_crop_top_and_skirt/scene.gltf" alt="A 3D model of a car" shadow-intensity="2"
+                        <model-viewer class=" mySlides  mb-6  " src="brocade_dress/scene.gltf" alt="A 3D model of a car" shadow-intensity="2"
                             camera-controls auto-rotate ar>
                         </model-viewer>
                         <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
                         </script>
                         <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
                         </script>
-
+            
                     </div>
                     <div>
-                        <model-viewer class=" green mySlides mb-6 " src="dress/scene.gltf" alt="A 3D model of a car" shadow-intensity="2"
+                        <model-viewer class=" mySlides  mb-6 " src="casual_clothes/scene.gltf" alt="A 3D model of a car" shadow-intensity="2"
                             camera-controls auto-rotate ar>
                         </model-viewer>
                         <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
                         </script>
                         <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
                         </script>
-
+            
                     </div>
+                    
+                    <script>
+                        var slideIndex = 1;
+                        showDivs(slideIndex);
+                        
+                        function plusDivs(n) {
+                          showDivs(slideIndex += n);
+                        }
+                        
+                        function showDivs(n) {
+                          var i;
+                          var x = document.getElementsByClassName("mySlides");
+                          if (n > x.length) {slideIndex = -1}
+                          if (n < 1) {slideIndex = x.length}
+                          for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";  
+                          }
+                          x[slideIndex-1].style.display = "block";  
+                        }
+                        </script>
+                        
+               
                   </div>
                
             </div>
         </div>
-        <script>
-            var slideIndex = 1;
-            showDivs(slideIndex);
-
-            function plusDivs(n) {
-                showDivs(slideIndex += n);
-            }
-
-            function showDivs(n) {
-                var i;
-                var x = document.getElementsByClassName("mySlides");
-                if (n > x.length) { slideIndex = 1 }
-                if (n < 1) { slideIndex = x.length }
-                for (i = 0; i < x.length; i++) {
-                    x[i].style.display = "none";
-                }
-                x[slideIndex - 1].style.display = "block";
-            }
-        </script>
-   
-
+        
+  
 </body>
 
 </html>
