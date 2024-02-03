@@ -41,6 +41,7 @@ transition:  0.8s;
 overflow: hidden;
 box-shadow: 00 5px rgba(0, 0, 0, 0.712);
 }
+
 .Changecontent{
   font-family: 'Arimo', sans-serif;
   letter-spacing:10px;
@@ -173,13 +174,13 @@ a:hover{
   
   
   }
-  .mdl{
-   
-  }
+
   .modle{
     height: 100vh;
     background-image: url(img/istockphoto-1263687010-1024x1024.jpg);
       background-size: cover;
+
+     
      
   }
   #parent{
@@ -189,5 +190,87 @@ a:hover{
     position: absolute;
    
   }
+  .cont{
+     height: 100vh;
+
+  }
+
+  .second-container{
+    height: 100vh;
     
+  }
+  .tab:hover{
+    background-color: rgba(45, 112, 235, 0.521);
+    opacity: 0.3;
+  }
+ .tab{
+transition: 0.8s;
+ }
+  .text {
+    color: rgb(236, 5, 5);
+    background-color: aqua;
+    font-size: 20px; 
+  }
+  .pl{
+    width: 345px;
+
+  }
+  .w-90{
+    width: 245px;
+  }
+  .w-69{
+    width: 248px;
+  }
+ .line{
+  margin-bottom: 72px;
+  width: 18%;
+  margin-left: 41%;
+  border: 2px solid rgba(0, 140, 255, 0.753);
+ }
+.w-99{
+  width: 789px;
+  border-radius: 15px;
+}
+.w-98{
+  width:349px ;
+
+}
+.women-fashion{
+  height: 407px;
+  width: 288px;
+  background-image: url(img/young-woman-smiling-cheerful-concept_53876-60056-removebg-preview.png);
+  background-size: cover;
+  background-color: rgb(165, 220, 245);
   
+} 
+.women-fashion:hover{
+ background-color: rgba(19, 127, 250, 0.247);
+ 
+}
+.fashion-title{
+  display: none;
+  
+}
+.women-fashion:hover .fashion-title {
+ display: block;
+ 
+ }
+ .women-fashion:hover .icon-fashion{
+  display: block;
+ }
+.icon-fashion{
+  display: none;
+
+ 
+}
+.ml-40{
+  border: 1px solid rgba(212, 235, 255, 0.753);}
+  
+.upgr{
+  box-shadow: 00 5px rgba(0, 0, 0, 0.712);
+  border-radius: 12px;
+}
+.vid-one{
+  width: 486px;
+  height: 432px;
+}

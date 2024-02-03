@@ -155,8 +155,8 @@
 
     </div>
     <!-- Second section -->
-    <div class="second-container">
-        <div class="flex flex-row ml-20 mr-20 mt-28">
+    <div class="second-container flex flex-row justify-center items-center">
+        <div class="flex flex-row ml-20 mr-20 mt-12">
             <div>
                 <img src="img/grid1.jpg" class="w-96">
             </div>
@@ -179,18 +179,11 @@
 
     </div>
     <!-- 2nd section -->
-    <div class="second-container">
-        <div class=" w-full h-2/5 flex flex-row items-center justify-center mt-32">
-            <h3 class=" text-3xl font-sans font-bold text-cyan-500">Welcome in BlueSapphire 3D Wardrobe</h3>
-        </div>
-
-        <div class="flex flex-row mt-28 ">
-
-
-        </div>
-
-        <div >
-
+    <div class="second-contain">
+            <div>
+            <div class=" mb-10 flex flex-row items-center justify-center ">
+                <h3 class=" text-3xl font-sans font-bold text-cyan-500">Welcome in BlueSapphire 3D Wardrobe</h3>
+            </div>
             <div class="modle ">
                 <div class="flex flex-row justify-end  ">
                     <div class="flex flex-col space-y-11 w-60 green mt-56">
@@ -201,10 +194,10 @@
                         <button class="tbni">Men suit's</button>
                     </div>
                 </div>
-                    <div>
+                <div>
                     <div class="mt-32 ">
-                        <model-viewer class="mySlides" src="prom_suit/scene.gltf" alt="A 3D model of a car" shadow-intensity="2"
-                            camera-controls auto-rotate ar>
+                        <model-viewer class="mySlides" src="prom_suit/scene.gltf" alt="A 3D model of a car"
+                            shadow-intensity="2" camera-controls auto-rotate ar>
                         </model-viewer>
                         <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
                         </script>
@@ -212,53 +205,156 @@
                         </script>
                     </div>
                     <div>
-                        <model-viewer class=" mySlides  mb-6  " src="brocade_dress/scene.gltf" alt="A 3D model of a car" shadow-intensity="2"
-                            camera-controls auto-rotate ar>
+                        <model-viewer class=" mySlides  mb-6  " src="brocade_dress/scene.gltf" alt="A 3D model of a car"
+                            shadow-intensity="2" camera-controls auto-rotate ar>
                         </model-viewer>
                         <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
                         </script>
                         <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
                         </script>
-            
+
                     </div>
                     <div>
-                        <model-viewer class=" mySlides  mb-6 " src="casual_clothes/scene.gltf" alt="A 3D model of a car" shadow-intensity="2"
-                            camera-controls auto-rotate ar>
+                        <model-viewer class=" mySlides  mb-6 " src="casual_clothes/scene.gltf" alt="A 3D model of a car"
+                            shadow-intensity="2" camera-controls auto-rotate ar>
                         </model-viewer>
                         <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
                         </script>
                         <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
                         </script>
-            
+
                     </div>
-                    
+                    <div>
+                        <model-viewer class=" mySlides  mb-6 " src="woman_mini_skirt/scene.gltf"
+                            alt="A 3D model of a car" shadow-intensity="2" camera-controls auto-rotate ar>
+                        </model-viewer>
+                        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+                        </script>
+                        <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+                        </script>
+
+                    </div>
+
                     <script>
                         var slideIndex = 1;
                         showDivs(slideIndex);
-                        
+
                         function plusDivs(n) {
-                          showDivs(slideIndex += n);
+                            showDivs(slideIndex += n);
                         }
-                        
+
                         function showDivs(n) {
-                          var i;
-                          var x = document.getElementsByClassName("mySlides");
-                          if (n > x.length) {slideIndex = -1}
-                          if (n < 1) {slideIndex = x.length}
-                          for (i = 0; i < x.length; i++) {
-                            x[i].style.display = "none";  
-                          }
-                          x[slideIndex-1].style.display = "block";  
+                            var i;
+                            var x = document.getElementsByClassName("mySlides");
+                            if (n > x.length) { slideIndex = -1 }
+                            if (n < 1) { slideIndex = x.length }
+                            for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none";
+                            }
+                            x[slideIndex - 1].style.display = "block";
                         }
-                        </script>
-                        
-               
-                  </div>
-               
+                    </script>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- section 3 -->
+
+
+    <div class="second-cont mt-9">
+        <h1 class="text-3xl mb-4 flex flex-row justify-center items-center">Women Fashion Style</h1>
+        <hr class="line">
+        <div class="flex flex-row ml-20 mr-20  space-x-7">
+            <div class="women-fashion flex flex-row justify-center items-center duration-300 ">
+                <h4 class="fashion-title text-3xl ">Jean trouser</h4>
+                <h4 class="">100$</h4>
+                <div class="icon-fashion ">
+                    <a href=""><i class="ri-heart-fill  "></i></a>
+                    <a href=""><i class="ri-shopping-cart-line e"></i></a>
+                </div>
+
+            </div>
+            <div>
+                <img src="img/black-african-american-millennial-girl-living-room-happy-dark-skinned-young-woman-weekend-home_627829-5024-removebg-preview.png"
+                    class="tab bg-sky-200 w-72">
+            </div>
+
+            <div>
+                <img src="img/amazing-retro-woman-dressed-shirt_171337-10116-removebg-preview.png"
+                    class="tab bg-sky-200 w-72">
+            </div>
+            <div>
+                <img src="img/grid6-removebg-preview.png" class="tab bg-sky-200 w-72">
+            </div>
+            <div>
+                <a href=""></a> <img src="img/woman-with-long-skirt-touching-her-hair_1187-1709-removebg-preview.png"
+                    class="tab bg-sky-200 w-60 ">
+            </div>
+        </div>
+        <!-- section of men -->
+        <div class="second-cont mt-14 ml-4">
+            <h1 class="text-3xl mb-4 flex flex-row justify-center items-center">Men Fashion Style</h1>
+            <hr class="line">
+            <div class="flex flex-row ml-20 mr-20 mt-0 space-x-7">
+
+                <div>
+                    <a href=""></a> <img src="img/men1.png" class="tab bg-sky-200 pl ">
+                </div>
+                <div>
+                    <img src="img/men2.png" class="tab bg-sky-200 w-64">
+
+
+                </div>
+
+                <div>
+                    <img src="img/men3.png" class="tab bg-sky-200 w-72">
+                </div>
+                <div>
+                    <img src="img/men4.png" class="tab bg-sky-200 w-69">
+                </div>
+                <div>
+                    <a href=""></a> <img src="img/men6.png" class="tab bg-sky-200 w-90 ">
+                </div>
+            </div>
+        </div>
+        <hr class="mt-11 w-9/12 ml-40">
+        <!-- section of video -->
+        <div class="cont mt-28 ml-4">
+
+            <div class="flex flex-row ml-20 mr-20  ">
+                
+                 <div class="">
+                <video autoplay loop videos class="w-99 " src="img/pexels-ron-lach-8386975 (2160p).mp4"></video>
+                 </div>
+                  <div class="mt-5 flex flex-col justify-between  ml-3" >
+                    
+                    <span class="relative flex h-8 w-8">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-8 w-8 bg-sky-500"></span>
+                  </span>
+                 </div>
+                <div class="flex flex-col"> <h3 class="flex flex-row  justify-start ml-3 text-3xl items-start">Exclusive Fashion <br> Clothing  Collection </h3>
+                     <p class="ml-3 mt-3">Feel the summer mood with our latest exclusive clothes <br> collection featuring  bright colors and hand-painted ornaments!</p>
+                     <button class="ntb mt-9">SHOP NOW</button>
+            </div>
             </div>
         </div>
         
-  
+    </div>
+    <div>
+        <hr class="mb-24 w-9/12 ml-40">
+       <div class="flex flex-row justify-center items-center shadow-xl">
+       
+       <a href=""><img src="img/upgrade.jpg" class="upgr"></a> 
+
+       </div>   
+    </div>
+
 </body>
+
 
 </html>

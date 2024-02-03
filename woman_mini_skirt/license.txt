@@ -1,0 +1,11 @@
+Model Information:
+* title:	Woman Mini Skirt
+* source:	https://sketchfab.com/3d-models/woman-mini-skirt-5498fc39dd594a8fbf365b8eb6f146e5
+* author:	lizhiqiang (https://sketchfab.com/lizhiqiang89)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Woman Mini Skirt" (https://sketchfab.com/3d-models/woman-mini-skirt-5498fc39dd594a8fbf365b8eb6f146e5) by lizhiqiang (https://sketchfab.com/lizhiqiang89) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
